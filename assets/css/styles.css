@@ -27,8 +27,7 @@ a {
 .container {
   width: 1110px;
   max-width: calc(100% - 48px);
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto;
 }
 
 .btn {
@@ -329,10 +328,11 @@ a {
   background: #fff;
   border-radius: 12px;
   box-shadow: 0px 65px 80px -46px rgba(226, 238, 249, 0.6);
+  overflow: hidden;
 }
 
 .featured .item:hover .thumb {
-  scale: 0.9;
+  scale: 1.1;
 }
 
 .featured .list .thumb {
