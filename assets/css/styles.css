@@ -24,7 +24,7 @@ a {
   text-decoration: none;
 }
 
-.content {
+.container {
   width: 1110px;
   max-width: calc(100% - 48px);
   margin-left: auto;
@@ -41,6 +41,11 @@ a {
   text-align: center;
   font-size: 1.4rem;
   font-weight: 500;
+  transition: 0.25s;
+}
+
+.btn:hover {
+  opacity: 0.9;
 }
 
 .line-clamp {
@@ -48,10 +53,6 @@ a {
   -webkit-box-orient: vertical;
   -webkit-line-clamp: var(--line-clamp, 2);
   overflow: hidden;
-}
-
-.btn:hover {
-  opacity: 0.9;
 }
 
 /* Header  */
@@ -92,6 +93,7 @@ a {
   color: #4f5361;
   font-size: 1.4rem;
   padding: 8px 14px;
+  transition: 0.25s;
 }
 
 .navbar ul a:hover {
@@ -157,6 +159,15 @@ a {
 .clients .row {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+}
+
+.clients .stars-icon {
+  transition: 0.25s;
+}
+
+.clients .row .stars-icon:hover {
+  scale: 0.9;
 }
 
 .clients .row-desc {
@@ -183,10 +194,12 @@ a {
   padding: 0 42px;
   height: 90px;
   border-radius: 12px;
+  transition: 0.25s;
 }
 
 .clients .images a:hover {
   box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+  scale: 1.1;
 }
 
 /* Guides */
@@ -318,12 +331,17 @@ a {
   box-shadow: 0px 65px 80px -46px rgba(226, 238, 249, 0.6);
 }
 
+.featured .item:hover .thumb {
+  scale: 0.9;
+}
+
 .featured .list .thumb {
   width: 100%;
   height: 227px;
   border-top-left-radius: 12px;
   border-top-right-radius: 12px;
   object-fit: cover;
+  transition: 0.25s;
 }
 
 .featured .item .body {
@@ -480,6 +498,12 @@ a {
   font-size: 0.7rem;
   font-weight: 450;
   letter-spacing: -0.145px;
+  transition: 0.25s;
+  cursor: pointer;
+}
+
+.stats .avatar:hover {
+  scale: 0.9;
 }
 
 .stats .avatar:first-child {
@@ -497,6 +521,7 @@ a {
   height: 600px;
   object-fit: cover;
   border-radius: 12px;
+  cursor: pointer;
 }
 
 .stats .row-qty {
@@ -594,17 +619,45 @@ a {
   margin-top: 18px;
 }
 
+.footer .item a:hover {
+  text-decoration: underline;
+}
+
 .footer .item a,
 .footer .desc {
   white-space: nowrap;
   color: #7a7a7e;
   font-size: 1.6rem;
+  transition: 0.25s;
 }
 
 .footer .desc {
   white-space: normal;
   line-height: 1.75;
   margin: 40px 0;
+}
+
+.footer .social {
+  display: flex;
+}
+
+.footer .social-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 29px;
+  height: 29px;
+  background: #f9f9f9;
+  border-radius: 3px;
+  transition: 0.25s;
+}
+
+.footer .social-link:hover {
+  background: #ededed;
+}
+
+.footer .social-link + .social-link {
+  margin-left: 16px;
 }
 
 .footer .row-bottom {
