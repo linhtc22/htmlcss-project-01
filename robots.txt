@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://linhtc22.github.io/htmlcss-project-01/sitemap.xml
