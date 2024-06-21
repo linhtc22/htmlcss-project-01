@@ -159,6 +159,10 @@
     .show-on-mobile {
         display: none;
     }
+
+    .hero-wrap {
+        height: calc(100vh - 402px);
+    }
 }
 
 /* Mobile */
@@ -189,6 +193,14 @@
         width: 100%;
     }
 
+    .guides {
+        padding-top: 0;
+    }
+
+    .clients {
+        padding-top: 0;
+    }
+
     .clients .images {
         row-gap: 20px;
     }
@@ -207,6 +219,7 @@
     }
 
     .featured .list {
+        margin-top: 50px;
         grid-template-columns: 1fr;
     }
 
