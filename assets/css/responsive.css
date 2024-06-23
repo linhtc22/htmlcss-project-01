@@ -90,6 +90,10 @@
         width: 80%;
     }
 
+    .clients {
+        margin-top: 50px;
+    }
+
     .clients .images {
         flex-wrap: wrap;
         justify-content: center;
@@ -147,6 +151,10 @@
         display: none;
     }
 
+    .footer {
+        margin-top: 30px;
+    }
+
     .footer .row-top {
         display: grid;
         grid-template-columns: 1fr 2fr;
@@ -162,6 +170,35 @@
 
     .hero-wrap {
         height: calc(100vh - 402px);
+    }
+
+    .guides {
+        margin-top: 0;
+        padding: 50px 0 70px;
+    }
+
+    .featured {
+        padding: 60px 0 80px;
+    }
+
+    .stats {
+        margin-top: 50px;
+    }
+
+    .stats .row-qty {
+        margin-top: 80px;
+    }
+
+    .subscription {
+        margin-top: 50px;
+    }
+
+    .subscription .body {
+        height: 300px;
+    }
+
+    .subscription .info {
+        padding: 0 60px;
     }
 }
 
@@ -194,24 +231,30 @@
     }
 
     .guides {
-        padding-top: 0;
+        padding: 0 0 40px;
     }
 
     .clients {
-        padding-top: 0;
+        padding: 0 0 20px;
     }
 
     .clients .images {
+        margin-top: 40px;
         row-gap: 20px;
     }
 
     .list-guide {
         flex-direction: column;
         row-gap: 60px;
+        margin-top: 50px;
     }
 
     .guide-cta {
         margin-top: 60px;
+    }
+
+    .featured {
+        padding: 50px 0;
     }
 
     .featured .link {
@@ -226,6 +269,14 @@
     .featured .view-all {
         display: flex;
         justify-content: center;
+        margin-top: 60px;
+    }
+
+    .stats {
+        margin-top: 40px;
+    }
+
+    .stats .img-block {
         margin-top: 60px;
     }
 
@@ -247,6 +298,11 @@
         flex-direction: column;
         align-items: center;
         row-gap: 60px;
+        margin-top: 70px;
+    }
+
+    .subscription {
+        margin-top: 30px;
     }
 
     .subscription .info {
@@ -259,6 +315,11 @@
 
     .footer .row-top {
         grid-template-columns: 1fr;
+        row-gap: 50px;
+    }
+
+    .footer .list {
+        margin-top: 30px;
     }
 
     .footer .row-bottom {
